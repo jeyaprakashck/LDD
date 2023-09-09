@@ -1,0 +1,1 @@
+cmd_/home/km/Desktop/LinuxDeviceDriver/CDD/4.multipleCDD/calculatorDeviceDriver.mod := { echo  /home/km/Desktop/LinuxDeviceDriver/CDD/4.multipleCDD/calculatorDeviceDriver.o;  echo; } > /home/km/Desktop/LinuxDeviceDriver/CDD/4.multipleCDD/calculatorDeviceDriver.mod

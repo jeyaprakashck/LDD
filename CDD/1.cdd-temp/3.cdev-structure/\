@@ -1,0 +1,67 @@
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/init.h>
+#include <linux/fs.h>
+#include <linux/cdev.h>
+
+MODULE_AUTHOR("Jeyaprakash");
+MODULE_DESCRIPTION("Hello Module program");
+MODULE_LICENSE("GPLV2");
+
+dev_t dev;
+static struct cdev cdevStructure;	//This is used to create and add char dev to the system
+static struct class *devClass;		//This is used to load device file in /dev (mknod)
+
+
+/*
+**Function Prototype
+*/
+static ssize_t readFunc(struct file *filp, char __user *buf, size_t len, loff_t *off);
+static ssize_t writeFunc(struct file *filp, const char __user *buf, size_t len, loff_t *off);
+static int openFunc(struct inode *inode, struct file *file);
+static int releaseFunc(struct inode *inode, struct file *file);
+
+
+static struct file_operations fops = {
+	.owner = THIS_MODULE,
+	.read = readFunc,
+	.write = writeFunc,
+	.open = openFunc,
+	.release = releaseFunc
+};
+
+
+static int helloInit(void){
+	/*allocating Major number dynamically */
+	alloc_chrdev_region(&dev, 1, 1, "dynamicMajorNoExample");
+	printk("Kernel module is loaded \n");
+	printk("Major = %d Minor = %d\n, dev value = %d\n", MAJOR(dev), MINOR(dev), dev);
+	printk(KERN_INFO "%s : %s : %d\n", __FILE__, __func__, __LINE__);
+	
+	/* Creating cdev structure */
+	cdev_init(&cdevStructure, &fops);
+	
+	/* Adding character device to the system */
+	cdev_add(&cdevStructure, dev, 1);
+
+	/* device class creation to create device file inside /dev folder */
+	devClass = class_create(THIS_MODULE, "charDeviceTestingClass");
+	
+	/* creating device file */
+	device_create(devClass, NULL, dev, NULL, "charDeviceTesting");
+	return 0;
+
+}
+
+static void helloExit(void){
+	device_destroy(devClass, dev);
+	class_destroy(devClass);
+	cdev_del(&cdevStructure);
+	unregister_chrdev_region(dev, 1);
+	printk("Kernel module is unloaded \n");
+	printk(KERN_INFO "%s : %s : %d\n", __FILE__, __func__, __LINE__);
+}
+
+module_init(helloInit);
+module_exit(helloExit);
+

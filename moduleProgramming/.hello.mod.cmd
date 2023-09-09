@@ -1,0 +1,1 @@
+cmd_/home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.mod := { echo  /home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.o;  echo; } > /home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.mod

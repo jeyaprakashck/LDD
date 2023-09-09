@@ -1,0 +1,1 @@
+cmd_/home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.mod := { echo  /home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.o;  echo; } > /home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.mod

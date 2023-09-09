@@ -1,0 +1,1 @@
+cmd_/home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.ko /home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.o /home/km/Desktop/LinuxDeviceDriver/CDD/5.interrupts/interrupt1.mod.o;  true

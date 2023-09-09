@@ -1,0 +1,1 @@
+cmd_/home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.ko /home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.o /home/km/Desktop/LinuxDeviceDriver/moduleProgramming/hello.mod.o;  true
