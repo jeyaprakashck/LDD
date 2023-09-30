@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/16.signal/signal.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/16.signal/signal.ko /home/pi/Desktop/LDD/16.signal/signal.o /home/pi/Desktop/LDD/16.signal/signal.mod.o ;  true

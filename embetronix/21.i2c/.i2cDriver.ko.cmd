@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/21.i2cDriver/i2cDriver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/21.i2cDriver/i2cDriver.ko /home/pi/Desktop/LDD/21.i2cDriver/i2cDriver.o /home/pi/Desktop/LDD/21.i2cDriver/i2cDriver.mod.o ;  true

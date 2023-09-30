@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/10.workQueue/workQueue.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/10.workQueue/workQueue.ko /home/pi/Desktop/LDD/10.workQueue/workQueue.o /home/pi/Desktop/LDD/10.workQueue/workQueue.mod.o ;  true

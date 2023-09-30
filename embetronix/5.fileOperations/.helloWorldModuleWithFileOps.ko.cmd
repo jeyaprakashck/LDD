@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/5.fileOperations/helloWorldModuleWithFileOps.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/5.fileOperations/helloWorldModuleWithFileOps.ko /home/pi/Desktop/LDD/5.fileOperations/helloWorldModuleWithFileOps.o /home/pi/Desktop/LDD/5.fileOperations/helloWorldModuleWithFileOps.mod.o ;  true

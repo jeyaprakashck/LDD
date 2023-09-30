@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/21.i2c/2.i2cWithNewBus/1.i2cBus/i2cNewBus.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/21.i2c/2.i2cWithNewBus/1.i2cBus/i2cNewBus.ko /home/pi/Desktop/LDD/21.i2c/2.i2cWithNewBus/1.i2cBus/i2cNewBus.o /home/pi/Desktop/LDD/21.i2c/2.i2cWithNewBus/1.i2cBus/i2cNewBus.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/7.ioctl/ioctlExample.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/7.ioctl/ioctlExample.ko /home/pi/Desktop/LDD/7.ioctl/ioctlExample.o /home/pi/Desktop/LDD/7.ioctl/ioctlExample.mod.o ;  true

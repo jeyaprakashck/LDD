@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/13.tasklet/tasklet.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/13.tasklet/tasklet.ko /home/pi/Desktop/LDD/13.tasklet/tasklet.o /home/pi/Desktop/LDD/13.tasklet/tasklet.mod.o ;  true

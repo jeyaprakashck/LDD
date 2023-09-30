@@ -1,0 +1,1 @@
+cmd_/home/km/Desktop/LinuxDeviceDriver/fastBit/2.platformDriver/platformDriver.mod := { echo  /home/km/Desktop/LinuxDeviceDriver/fastBit/2.platformDriver/platformDriver.o;  echo; } > /home/km/Desktop/LinuxDeviceDriver/fastBit/2.platformDriver/platformDriver.mod

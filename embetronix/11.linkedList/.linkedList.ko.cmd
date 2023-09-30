@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/11.linkedList/linkedList.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/11.linkedList/linkedList.ko /home/pi/Desktop/LDD/11.linkedList/linkedList.o /home/pi/Desktop/LDD/11.linkedList/linkedList.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/passingArg/helloWorldModuleWithArgs.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/passingArg/helloWorldModuleWithArgs.ko /home/pi/Desktop/LDD/passingArg/helloWorldModuleWithArgs.o /home/pi/Desktop/LDD/passingArg/helloWorldModuleWithArgs.mod.o ;  true

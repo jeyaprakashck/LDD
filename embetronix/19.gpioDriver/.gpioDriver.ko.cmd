@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/19.gpioDriver/gpioDriver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/19.gpioDriver/gpioDriver.ko /home/pi/Desktop/LDD/19.gpioDriver/gpioDriver.o /home/pi/Desktop/LDD/19.gpioDriver/gpioDriver.mod.o ;  true

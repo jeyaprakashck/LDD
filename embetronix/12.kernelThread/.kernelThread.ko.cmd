@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/12.kernelThread/kernelThread.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/12.kernelThread/kernelThread.ko /home/pi/Desktop/LDD/12.kernelThread/kernelThread.o /home/pi/Desktop/LDD/12.kernelThread/kernelThread.mod.o ;  true

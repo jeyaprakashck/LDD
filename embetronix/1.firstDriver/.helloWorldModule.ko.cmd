@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/firstDriver/helloWorldModule.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/firstDriver/helloWorldModule.ko /home/pi/Desktop/LDD/firstDriver/helloWorldModule.o /home/pi/Desktop/LDD/firstDriver/helloWorldModule.mod.o ;  true

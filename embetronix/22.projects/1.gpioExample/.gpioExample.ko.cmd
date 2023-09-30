@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LDD/22.projects/1.gpioExample/gpioExample.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/22.projects/1.gpioExample/gpioExample.ko /home/pi/Desktop/LDD/22.projects/1.gpioExample/gpioExample.o /home/pi/Desktop/LDD/22.projects/1.gpioExample/gpioExample.mod.o ;  true
