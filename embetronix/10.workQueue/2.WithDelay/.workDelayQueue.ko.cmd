@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LDD/10.workQueue/2.WithDelay/workDelayQueue.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/10.workQueue/2.WithDelay/workDelayQueue.ko /home/pi/Desktop/LDD/10.workQueue/2.WithDelay/workDelayQueue.o /home/pi/Desktop/LDD/10.workQueue/2.WithDelay/workDelayQueue.mod.o ;  true

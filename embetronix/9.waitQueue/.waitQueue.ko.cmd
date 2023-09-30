@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LDD/9.waitQueue/waitQueue.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/9.waitQueue/waitQueue.ko /home/pi/Desktop/LDD/9.waitQueue/waitQueue.o /home/pi/Desktop/LDD/9.waitQueue/waitQueue.mod.o ;  true

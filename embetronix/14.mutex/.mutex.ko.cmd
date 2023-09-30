@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LDD/14.mutex/mutex.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/14.mutex/mutex.ko /home/pi/Desktop/LDD/14.mutex/mutex.o /home/pi/Desktop/LDD/14.mutex/mutex.mod.o ;  true

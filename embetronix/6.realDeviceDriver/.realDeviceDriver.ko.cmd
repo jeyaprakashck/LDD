@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LDD/6.realDeviceDriver/realDeviceDriver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/6.realDeviceDriver/realDeviceDriver.ko /home/pi/Desktop/LDD/6.realDeviceDriver/realDeviceDriver.o /home/pi/Desktop/LDD/6.realDeviceDriver/realDeviceDriver.mod.o ;  true

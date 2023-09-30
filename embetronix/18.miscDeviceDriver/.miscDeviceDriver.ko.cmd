@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LDD/18.miscDeviceDriver/miscDeviceDriver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/LDD/18.miscDeviceDriver/miscDeviceDriver.ko /home/pi/Desktop/LDD/18.miscDeviceDriver/miscDeviceDriver.o /home/pi/Desktop/LDD/18.miscDeviceDriver/miscDeviceDriver.mod.o ;  true
